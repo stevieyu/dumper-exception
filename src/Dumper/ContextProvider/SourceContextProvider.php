@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Stevie\DumperException\Dumper\ContextProvider;
+namespace Stvy\DumperException\Dumper\ContextProvider;
 
 use Symfony\Component\HttpKernel\Debug\FileLinkFormatter;
-use Stevie\DumperException\Cloner\VarCloner;
-use Stevie\DumperException\Dumper\HtmlDumper;
-use Stevie\DumperException\VarDumper;
+use Stvy\DumperException\Cloner\VarCloner;
+use Stvy\DumperException\Dumper\HtmlDumper;
+use Stvy\DumperException\VarDumper;
 use Twig\Template;
 
 /**

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Stevie\DumperException\Dumper;
+namespace Stvy\DumperException\Dumper;
 
-use Stevie\DumperException\Cloner\Cursor;
-use Stevie\DumperException\Cloner\Stub;
+use Stvy\DumperException\Cloner\Cursor;
+use Stvy\DumperException\Cloner\Stub;
 
 /**
  * CliDumper dumps variables for command line output.

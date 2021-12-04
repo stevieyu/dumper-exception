@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Stevie\DumperException\Cloner;
+namespace Stvy\DumperException\Cloner;
 
 /**
  * Represents the current state of a dumper while dumping.

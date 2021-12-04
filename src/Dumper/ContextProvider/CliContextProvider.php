@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Stevie\DumperException\Dumper\ContextProvider;
+namespace Stvy\DumperException\Dumper\ContextProvider;
 
 /**
  * Tries to provide context on CLI.

@@ -1,5 +1,5 @@
 {
-    "name": "stevie/dumper-exception",
+    "name": "stvy/dumper-exception",
     "authors": [
         {
             "name": "Stevie",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Stevie\\DumperException\\": "src/"
+            "Stvy\\DumperException\\": "src/"
         },
         "files": ["src/function.php"]
     }

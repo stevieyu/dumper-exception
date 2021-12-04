@@ -1,10 +1,10 @@
 <?php
 
-namespace Stevie\DumperException;
+namespace Stvy\DumperException;
 
 use Exception;
-use Stevie\DumperException\Cloner\VarCloner;
-use Stevie\DumperException\Dumper\HtmlDumper;
+use Stvy\DumperException\Cloner\VarCloner;
+use Stvy\DumperException\Dumper\HtmlDumper;
 
 class DdException extends Exception
 {

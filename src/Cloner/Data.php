@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Stevie\DumperException\Cloner;
+namespace Stvy\DumperException\Cloner;
 
-use Stevie\DumperException\Caster\Caster;
-use Stevie\DumperException\Dumper\ContextProvider\SourceContextProvider;
+use Stvy\DumperException\Caster\Caster;
+use Stvy\DumperException\Dumper\ContextProvider\SourceContextProvider;
 
 /**
  * @author Nicolas Grekas <p@tchwork.com>

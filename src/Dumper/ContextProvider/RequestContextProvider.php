@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Stevie\DumperException\Dumper\ContextProvider;
+namespace Stvy\DumperException\Dumper\ContextProvider;
 
 use Symfony\Component\HttpFoundation\RequestStack;
-use Stevie\DumperException\Caster\ReflectionCaster;
-use Stevie\DumperException\Cloner\VarCloner;
+use Stvy\DumperException\Caster\ReflectionCaster;
+use Stvy\DumperException\Cloner\VarCloner;
 
 /**
  * Tries to provide context from a request.

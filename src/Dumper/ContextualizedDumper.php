@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Stevie\DumperException\Dumper;
+namespace Stvy\DumperException\Dumper;
 
-use Stevie\DumperException\Cloner\Data;
-use Stevie\DumperException\Dumper\ContextProvider\ContextProviderInterface;
+use Stvy\DumperException\Cloner\Data;
+use Stvy\DumperException\Dumper\ContextProvider\ContextProviderInterface;
 
 /**
  * @author Kévin Thérage <therage.kevin@gmail.com>

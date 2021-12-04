@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Stevie\DumperException\Dumper;
+namespace Stvy\DumperException\Dumper;
 
-use Stevie\DumperException\Cloner\Data;
-use Stevie\DumperException\Dumper\ContextProvider\ContextProviderInterface;
-use Stevie\DumperException\Server\Connection;
+use Stvy\DumperException\Cloner\Data;
+use Stvy\DumperException\Dumper\ContextProvider\ContextProviderInterface;
+use Stvy\DumperException\Server\Connection;
 
 /**
  * ServerDumper forwards serialized Data clones to a server.
