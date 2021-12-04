@@ -1,0 +1,24 @@
+{
+    "name": "stevie/dumper-exception",
+    "authors": [
+        {
+            "name": "Stevie",
+            "email": "yzm629@sina.cn"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "minimum-stability": "stable",
+    "extra":{
+        "branch-alias":{
+            "dev-master":"1.0.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Stevie\\DumperException\\": "src/"
+        },
+        "files": ["src/function.php"]
+    }
+}
