@@ -5,7 +5,6 @@ namespace Stvy\DumperException;
 use Exception;
 use Stvy\DumperException\Cloner\VarCloner;
 use Stvy\DumperException\Dumper\HtmlDumper;
-use Stvy\DumperException\Dumper\CliDumper;
 
 class DdException extends Exception
 {
@@ -25,9 +24,6 @@ class DdException extends Exception
     public function render()
     {
         $dump = function ($var) {
-            if(in_array(PHP_SAPI, ['cli', 'phpdbg'], true)){
-                return (new CliDumper());
-            }
             $data = (new VarCloner())->cloneVar($var)->withMaxDepth(3);
 
             return (string) (new HtmlDumper(false))->dump($data, true, [
@@ -36,6 +32,6 @@ class DdException extends Exception
             ]);
         };
 
-        return collect($this->vars)->map($dump)->implode('');
+        return implode('', array_map($dump, $this->vars));
     }
 }
